@@ -1,56 +1,81 @@
-Got it, here's an updated version of your GitHub profile with Java projects instead of applications:
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6AD3F7&center=true&vCenter=true&random=false&width=435&lines=Hi+%F0%9F%91%8B+I'm+Salman+Farid;Competitive+Programmer;Flutter+Developer" alt="Typing SVG" />
+</div>
 
-# Salman Farid
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Salman-Farid&theme=tokyonight" />
+</div>
 
-## 👋 Hi, I'm Salman Farid
+<h2 align="center">🏆 Competitive Programming</h2>
+<div align="center">
+  <a href="https://codeforces.com/profile/salman_farid">
+    <img height="300" width="400" src="https://codeforces-readme-stats.vercel.app/api/card?username=salman_farid&theme=tokyonight" />
+  </a>
+  <a href="https://leetcode.com/salman_farid/">
+    <img height="300" width="400" src="https://leetcard.jacoblin.cool/salman_farid?theme=dark&font=Sura" />
+  </a>
+</div>
 
-![Animated GIF of me waving](https://media.giphy.com/media/hvS1eKlRx5wbK/giphy.gif)
+<h2 align="center">⚡ Tech Stack</h2>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,flutter,dart,firebase,git,github&theme=dark" />
+</div>
 
-### 👀 I'm interested in...
+<h2 align="center">📊 GitHub Stats</h2>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Salman-Farid&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" />
+</div>
 
-<img src="https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif" width="50"> **Competitive Programming**
-<img src="https://media.giphy.com/media/3o7TKB3oT40cIFtlLO/giphy.gif" width="50"> **Mobile App Development**
-<img src="https://media.giphy.com/media/3o7TKUDCjuKWqCgQ5i/giphy.gif" width="50"> **Algorithmic Problem Solving**
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Salman-Farid&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salman-Farid&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
 
-### 🌱 I'm currently learning...
+<h2 align="center">🌟 Featured Projects</h2>
 
-<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="50"> **Advanced C++ Concepts**
-<img src="https://media.giphy.com/media/XEDIHHp3i8bVoEdxd7/giphy.gif" width="50"> **Data Structures and Algorithms**
+<details>
+<summary>🏆 Competitive Programming Solutions</summary>
+<br>
 
-### 💞️ I'm looking to collaborate on...
+- [CodeForces Solutions](https://github.com/Salman-Farid/CodeForces-Solutions)
+  - 500+ problems solved
+  - Implementation of complex algorithms
+  - Detailed explanations and approaches
+  
+- [LeetCode Solutions](https://github.com/Salman-Farid/LeetCode-Solutions)
+  - 300+ problems solved
+  - Optimized solutions with time/space complexity analysis
+  - Various problem-solving techniques
+</details>
 
-<img src="https://media.giphy.com/media/XHB8S6JRiQUVrsRyVa/giphy.gif" width="50"> **Flutter App Development Projects**
-<img src="https://media.giphy.com/media/l1BgRIam9Cx0Vc1Cw/giphy.gif" width="50"> **Competitive Programming Challenges**
+<details>
+<summary>📱 Flutter Projects</summary>
+<br>
 
-### 🚀 Expertise
+- [Fitness Tracker](https://github.com/Salman-Farid/fitness-tracker)
+  - Real-time workout tracking
+  - Custom animation implementations
+  - Firebase integration
+  
+- [Smart Assistant](https://github.com/Salman-Farid/smart-assistant)
+  - AI-powered chatbot
+  - Voice recognition
+  - Beautiful UI with custom animations
+</details>
 
-<img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="50"> **Flutter**: 2+ years of hands-on experience in building beautiful, responsive, and high-performance mobile apps.
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> **C++**: 2+ years of expertise in C++ programming, including mastery of data structures, algorithms, and competitive programming.
-<img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="50"> **Java**: 1+ year of experience in Java programming, with a focus on building robust and scalable projects.
+<h2 align="center">🤝 Connect With Me</h2>
+<div align="center">
+  <a href="mailto:salman.f.rahman@g.bracu.ac.bd">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/salman-farid/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://codeforces.com/profile/salman_farid">
+    <img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white">
+  </a>
+</div>
 
-### 📫 How to reach me
-
-<img src="https://media.giphy.com/media/dxn6fRlTIShoeBr69N/giphy.gif" width="50"> Email: salman.f.rahman@g.bracu.ac.bd
-<img src="https://media.giphy.com/media/kHUjBlLd32ktxlSaz3/giphy.gif" width="50"> GitHub: [Salman-Farid](https://github.com/Salman-Farid)
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> LinkedIn: [Salman Farid](https://www.linkedin.com/in/salman-farid/)
-
-### 🚀 Featured Projects
-
-#### Flutter Apps
-
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Fitness Tracker](https://github.com/Salman-Farid/fitness-tracker): A comprehensive fitness tracking app built with Flutter, featuring real-time data visualization, workout routines, and AI-powered exercise recommendations.
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Chatbot Assistant](https://github.com/Salman-Farid/chatbot-assistant): An intelligent chatbot application developed with Flutter, leveraging natural language processing and machine learning to provide personalized assistance to users.
-
-#### C++ Projects
-
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Sorting Algorithms Visualizer](https://github.com/Salman-Farid/sorting-visualizer): A C++ application that visualizes the step-by-step execution of various sorting algorithms, helping users understand their inner workings.
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Competitive Programming Solutions](https://github.com/Salman-Farid/competitive-programming): A collection of solutions to popular coding challenges and competitive programming problems implemented in C++.
-
-#### Java Projects
-
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Distributed Key-Value Store](https://github.com/Salman-Farid/distributed-kv-store): A scalable and fault-tolerant distributed key-value store system implemented in Java, featuring consistency, availability, and partition tolerance.
-<img src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif" width="50"> [Parallel Matrix Multiplication](https://github.com/Salman-Farid/parallel-matrix-multiplication): A Java-based parallel implementation of matrix multiplication, leveraging multi-threading and concurrency to achieve high performance.
-
-This animated GitHub profile highlights your key areas of expertise, including Flutter, C++, and Java, as well as your involvement in competitive programming and mobile app development. It showcases some of your notable projects, demonstrating your skills and experience in these domains. The format follows a standard and visually appealing GitHub profile layout, making it easy for others to quickly understand your background and interests.
-
-The use of animated GIFs throughout the profile adds a dynamic and engaging touch, making it more visually appealing and memorable. The icons and GIFs used are relevant to the respective sections, providing a playful and informative way to convey your skills and interests.
+<div align="center">
+  <img src="https://github.com/Salman-Farid/Salman-Farid/blob/output/github-contribution-grid-snake-dark.svg" />
+</div>
