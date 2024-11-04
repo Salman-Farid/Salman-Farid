@@ -112,5 +112,9 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/Salman-Farid/Salman-Farid/blob/output/github-contribution-grid-snake-dark.svg" />
+  <h2>🔄 Workflow Status</h2>
+  
+  ![Metrics](https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml/badge.svg)
+  
+  <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800">
 </div>
