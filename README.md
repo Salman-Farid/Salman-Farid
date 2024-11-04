@@ -111,10 +111,20 @@
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Salman-Farid&theme=tokyo-night&hide_border=true&bg_color=0D1117" />
 </div>
 
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="40">
+  Workflow Metrics
+</h1>
+
 <div align="center">
-  <h2>🔄 Workflow Status</h2>
+  <!-- Animated Badge -->
+  <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/metrics.yml?logo=github&style=for-the-badge&labelColor=000000&color=6AD3F7">
+  </a>
   
-  ![Metrics](https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml/badge.svg)
-  
+  <!-- Metrics Visualization -->
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800">
+  
+  <!-- Animated Divider -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
 </div>
