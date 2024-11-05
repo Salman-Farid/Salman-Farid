@@ -128,3 +128,14 @@
   
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800" style="background-color: white;">
 </div>
+
+
+<div align="center">
+  <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/aircraft.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/aircraft.yml?logo=github&style=for-the-badge&labelColor=FFFFFF&color=000000">
+  </a>
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" style="background-color: white;">
+  
+  <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-aircraft.svg" alt="aircraft" width="800" style="background-color: white;">
+</div>
