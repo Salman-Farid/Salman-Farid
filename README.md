@@ -133,16 +133,3 @@
   <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" />
   Latest Artifacts
 </h1>
-
-<div align="center">
-  <!-- Artifact Status -->
-  <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/artifact.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/artifact.yml?label=🎨%20Assets&style=for-the-badge&labelColor=000000&color=6AD3F7">
-  </a>
-  
-  <!-- Download Link -->
-  <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/artifact.yml">
-    <img src="https://img.shields.io/badge/Download_Assets-4B32C3?style=for-the-badge&logo=github-actions&logoColor=white">
-  </a>
-</div>
-
