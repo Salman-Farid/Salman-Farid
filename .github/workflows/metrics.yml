@@ -1,14 +1,14 @@
-name: 🚀 Metrics Generation
+name: 📊 Metrics Generation
 on:
   schedule:
-    - cron: "0 */4 * * *"  # Even more frequent updates!
+    - cron: "0 */6 * * *"  # Runs every 6 hours
   workflow_dispatch:
   push:
     branches: [ "main" ]
 
 jobs:
   metrics:
-    name: 💫 Generate Dynamic Metrics
+    name: 📈 Generate Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: 🎮 Generate Epic Metrics
+      - name: 🎨 Generate Beautiful Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -25,27 +25,19 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Asia/Dhaka
           config_display: large
-          config_padding: 12%
+          config_padding: 10%
           config_animations: yes
-          config_twemoji: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 10
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_threshold: A
-          plugin_notable: yes
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_achievements_threshold: B
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           output_action: commit
-          commit_message: "🎨 Fresh metrics masterpiece generated"
+          commit_message: "🔄 Generated fresh metrics"
