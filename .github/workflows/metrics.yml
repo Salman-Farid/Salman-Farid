@@ -1,13 +1,14 @@
-name: Metrics Generation
+name: 🚀 Metrics Generation
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches: [ "main" ]
 
 jobs:
   metrics:
+    name: 💫 Generate Dynamic Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,17 +17,20 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Generate Metrics
+      - name: 🎮 Generate Epic Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
-          config_timezone: Asia/Dhaka
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          output_action: commit
-          commit_message: "Update metrics"
+          # [Previous metrics configuration...]
+
+      - name: 📦 Upload Metrics Artifact
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: github-metrics
+          path: github-metrics.svg
+          retention-days: 7
+          compression-level: 9
+          if-no-files-found: error
+          overwrite: true
+          include-hidden-files: true
