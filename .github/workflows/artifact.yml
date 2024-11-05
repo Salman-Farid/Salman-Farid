@@ -1,0 +1,28 @@
+name: 🎨 Artifact Generation
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: 📦 Generate Artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: 🎯 Create Artifact
+        uses: actions/upload-artifact@v4.4.3
+        with:
+          name: profile-assets
+          path: |
+            *.svg
+            *.png
+            *.gif
+          retention-days: 30
+          compression-level: 9
+          if-no-files-found: warn
+          overwrite: true
+          include-hidden-files: true
