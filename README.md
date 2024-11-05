@@ -111,20 +111,29 @@
   <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Salman-Farid&theme=tokyo-night&hide_border=true&bg_color=0D1117" />
 </div>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/240304586-d48893bd-0757-481c-8d7e-ba3e163feae7.png" width="900">
+</div>
+
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="40">
-  Workflow Metrics
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" />
+  Workflow Analytics
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" />
 </h1>
 
 <div align="center">
-  <!-- Animated Badge -->
+  <!-- Dynamic Status Badge -->
   <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/metrics.yml?logo=github&style=for-the-badge&labelColor=000000&color=6AD3F7">
   </a>
   
-  <!-- Metrics Visualization -->
+  <!-- Cool Divider -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+  
+  <!-- Metrics with Enhanced Styling -->
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800">
   
-  <!-- Animated Divider -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
+  <!-- Tech Animation -->
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+</div>ttps://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
 </div>
