@@ -1,43 +1,137 @@
-name: 📊 Metrics Generation
+name: 🎨 Dynamic GitHub Metrics
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
-  workflow_dispatch:
+    - cron: "0 */4 * * *"  # Runs every 4 hours for more frequent updates
+  workflow_dispatch:  # Manual trigger
   push:
-    branches: [ "main" ]
+    branches: [ "main", "master" ]
 
 jobs:
   metrics:
-    name: 📈 Generate Metrics
+    name: 🚀 Generate Enhanced Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      
     steps:
-      - uses: actions/checkout@v3
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      
-      - name: 🎨 Generate Beautiful Metrics
+          
+      - name: 🎨 Generate Stunning Metrics
         uses: lowlighter/metrics@latest
         with:
+          # Base Configuration
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Dhaka
           config_display: large
-          config_padding: 10%
+          config_padding: 12%
           config_animations: yes
+          config_twemoji: yes
+          config_gemoji: yes
+          
+          # Enhanced Visual Settings
+          optimize: yes
+          experimental_features: yes
+          use_prebuilt_image: yes
+          
+          # Template Configuration
+          template: classic
+          config_order: base.header, isocalendar, languages, notable, achievements, stars, activity, followers, sponsors, repositories
+          
+          # Isocalendar Plugin (3D Contribution Calendar)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_isocalendar_quality: 4
+          
+          # Languages Analysis
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: markup, programming, prose, data
           plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 12
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_threshold: 0%
+          
+          # Achievements Plugin
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_threshold: B
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          
+          # Notable Contributions
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit, pull_request, issue
+          
+          # Activity Plugin
+          plugin_activity: yes
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_timestamps: yes
+          plugin_activity_visibility: public
+          
+          # Habits Plugin
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          
+          # Stars Plugin
+          plugin_stars: yes
+          plugin_stars_limit: 6
+          
+          # Topics Plugin
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: mastered
+          plugin_topics_sort: stars
+          
+          # Lines Plugin
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_lines_repositories_limit: 10
+          plugin_lines_history_limit: 1
+          
+          # Follow-up Plugin
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          
+          # People Plugin
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_size: 28
+          plugin_people_types: followers, following
+          
+          # GitHub Sponsors
+          plugin_sponsors: yes
+          plugin_sponsors_sections: goal, about
+          
+          # Commit and Output Settings
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           output_action: commit
-          commit_message: "🔄 Generated fresh metrics"
+          commit_message: "🎨 Generated stunning metrics"
+          optimize: svg
+          
+          # Additional Visual Enhancements
+          config_base64: yes
+          retries: 3
+          retry_delay: 300
+          use_prebuilt_image: yes
+          verify: yes
+
+      - name: 🔄 Auto-commit on Failure
+        if: failure()
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: "⚠️ Automated metrics generation retry"
+          add: "github-metrics.svg"
