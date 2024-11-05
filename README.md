@@ -128,8 +128,3 @@
   
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800" style="background-color: white;">
 </div>
-
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40" />
-  Latest Artifacts
-</h1>
