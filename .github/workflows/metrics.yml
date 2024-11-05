@@ -1,133 +1,73 @@
-name: 🎨 Dynamic GitHub Metrics
+name: ✨ Animated GitHub Metrics
 on:
   schedule:
-    - cron: "0 */4 * * *"  # Runs every 4 hours for more frequent updates
-  workflow_dispatch:  # Manual trigger
+    - cron: "0 */6 * * *"  # Runs every 6 hours
+  workflow_dispatch:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
 
 jobs:
   metrics:
-    name: 🚀 Generate Enhanced Metrics
+    name: 🎭 Generate Animated Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
     steps:
-      - name: 📥 Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          
-      - name: 🎨 Generate Stunning Metrics
+      
+      - name: 🎨 Generate Beautiful Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Base Configuration
+          # Core Settings
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Dhaka
-          config_display: large
-          config_padding: 12%
+          base: ""  # Clean slate for custom layout
+          config_display: columns
+          config_padding: 10%
           config_animations: yes
-          config_twemoji: yes
-          config_gemoji: yes
+          config_animations_duration: 2s
           
-          # Enhanced Visual Settings
-          optimize: svg
-          experimental_features: yes
-          use_prebuilt_image: yes
-          config_base64: yes
-          retries: 3
-          retry_delay: 300
-          verify: yes
+          # Layout & Visual Effects
+          template: terminal
+          color_scheme: github-dark
+          background: yes
+          margins: 18
+          delay: 3
           
-          # Template Configuration
-          template: classic
-          config_order: base.header, isocalendar, languages, notable, achievements, stars, activity, followers, sponsors, repositories
+          # Header with Animation
+          plugin_introduction: yes
+          plugin_introduction_title: yes
           
-          # Isocalendar Plugin (3D Contribution Calendar)
+          # Animated Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_isocalendar_quality: 4
           
-          # Languages Analysis
+          # Animated Languages Graph
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_categories: markup, programming, prose, data
           plugin_languages_colors: github
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 12
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 30
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_threshold: 0%
+          plugin_languages_threshold: 2%
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_animations: yes
           
-          # Achievements Plugin
+          # Animated Contributions
           plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: A
           plugin_achievements_secrets: yes
           
-          # Notable Contributions
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_types: commit, pull_request, issue
-          
-          # Activity Plugin
-          plugin_activity: yes
-          plugin_activity_days: 30
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_timestamps: yes
-          plugin_activity_visibility: public
-          
-          # Habits Plugin
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          
-          # Stars Plugin
+          # Visual Stats
           plugin_stars: yes
-          plugin_stars_limit: 6
+          plugin_stars_limit: 4
           
-          # Topics Plugin
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: mastered
-          plugin_topics_sort: stars
-          
-          # Lines Plugin
-          plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_lines_repositories_limit: 10
-          plugin_lines_history_limit: 1
-          
-          # Follow-up Plugin
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          
-          # People Plugin
-          plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: followers, following
-          
-          # GitHub Sponsors
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, about
-          
-          # Commit Settings
+          # Animation Settings
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           output_action: commit
-          commit_message: "🎨 Generated stunning metrics"
-
-      - name: 🔄 Auto-commit on Failure
-        if: failure()
-        uses: EndBug/add-and-commit@v7
-        with:
-          message: "⚠️ Automated metrics generation retry"
-          add: "github-metrics.svg"
+          commit_message: "✨ Updated animated metrics"
+          optimize: svg
+          experimental_features: yes
+          config_twemoji: yes
+          verify: yes
