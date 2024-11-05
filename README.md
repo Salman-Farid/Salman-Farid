@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=6AD3F7&center=true&vCenter=true&random=false&width=500&lines=Hi+%F0%9F%91%8B+I'm+Salman+Farid;Competitive+Programmer;Flutter+Developer;Problem+Solver;Always+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=500&lines=Hi+%F0%9F%91%8B+I'm+Salman+Farid;Competitive+Programmer;Flutter+Developer;Problem+Solver;Always+Learning" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img width="800" src="https://github-readme-streak-stats.herokuapp.com/?user=Salman-Farid&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117" />
+  <img width="800" src="https://github-readme-streak-stats.herokuapp.com/?user=Salman-Farid&theme=dark&hide_border=true&stroke=ffffff&background=0D1117&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&dates=ffffff" />
 </div>
 
 <h1 align="center">
@@ -17,10 +17,10 @@
 
 <div align="center">
   <a href="https://codeforces.com/profile/Tiger_71">
-    <img height="280" width="400" src="https://codeforces-readme-stats.vercel.app/api/card?username=Tiger_71&theme=tokyonight&hide_border=true" />
+    <img height="280" width="400" src="https://codeforces-readme-stats.vercel.app/api/card?username=Tiger_71&theme=dark&hide_border=true&titleColor=ffffff&textColor=ffffff&iconColor=ffffff" />
   </a>
   <a href="https://leetcode.com/salman_farid/">
-    <img height="280" width="400" src="https://leetcard.jacoblin.cool/salman_farid?theme=dark&font=Sura&ext=contest&hide_border=true" />
+    <img height="280" width="400" src="https://leetcard.jacoblin.cool/salman_farid?theme=dark&font=Sura&ext=contest&hide_border=true&border=ffffff&radius=0&stroke=ffffff" />
   </a>
 </div>
 
@@ -30,7 +30,7 @@
 </h1>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,flutter,dart,firebase,git,github,vscode,androidstudio&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,flutter,dart,firebase,git,github,vscode,androidstudio&theme=light" />
 </div>
 
 <div align="center">
@@ -43,12 +43,12 @@
 </h1>
 
 <div align="center">
-  <img width="800" src="https://github-profile-trophy.vercel.app/?username=Salman-Farid&theme=tokyonight&no-frame=true&no-bg=true&margin-w=5&row=1" />
+  <img width="800" src="https://github-profile-trophy.vercel.app/?username=Salman-Farid&theme=dark&no-frame=true&no-bg=true&margin-w=5&row=1&column=6&title_color=ffffff&text_color=ffffff&icon_color=ffffff" />
 </div>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Salman-Farid&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salman-Farid&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Salman-Farid&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=ffffff&text_color=ffffff&icon_color=ffffff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Salman-Farid&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=ffffff&text_color=ffffff"/>
 </div>
 
 <h1 align="center">
@@ -59,7 +59,6 @@
 <details>
 <summary><b>🏆 Competitive Programming Solutions</b></summary>
 <br>
-
 - [**CodeForces Solutions**](https://github.com/Salman-Farid/CodeForces-Solutions)
   - 500+ problems solved
   - Implementation of complex algorithms
@@ -74,7 +73,6 @@
 <details>
 <summary><b>📱 Flutter Projects</b></summary>
 <br>
-
 - [**Fitness Tracker**](https://github.com/Salman-Farid/fitness-tracker)
   - Real-time workout tracking
   - Custom animation implementations
@@ -93,13 +91,13 @@
 
 <div align="center">
   <a href="mailto:salman.f.rahman@g.bracu.ac.bd">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+    <img src="https://img.shields.io/badge/Gmail-ffffff?style=for-the-badge&logo=gmail&logoColor=black">
   </a>
   <a href="https://www.linkedin.com/in/salman-farid/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    <img src="https://img.shields.io/badge/LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=black">
   </a>
   <a href="https://codeforces.com/profile/Tiger_71">
-    <img src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white">
+    <img src="https://img.shields.io/badge/Codeforces-ffffff?style=for-the-badge&logo=Codeforces&logoColor=black">
   </a>
 </div>
 
@@ -108,7 +106,7 @@
 </div>
 
 <div align="center">
-  <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Salman-Farid&theme=tokyo-night&hide_border=true&bg_color=0D1117" />
+  <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Salman-Farid&theme=minimal&hide_border=true&bg_color=0D1117&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff" />
 </div>
 
 <div align="center">
@@ -122,18 +120,13 @@
 </h1>
 
 <div align="center">
-  <!-- Dynamic Status Badge -->
   <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/metrics.yml?logo=github&style=for-the-badge&labelColor=000000&color=6AD3F7">
+    <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/metrics.yml?logo=github&style=for-the-badge&labelColor=000000&color=ffffff">
   </a>
   
-  <!-- Cool Divider -->
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
   
-  <!-- Metrics with Enhanced Styling -->
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800">
   
-  <!-- Tech Animation -->
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-</div>ttps://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="400">
 </div>
