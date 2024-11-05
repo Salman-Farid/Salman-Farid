@@ -34,9 +34,13 @@ jobs:
           config_gemoji: yes
           
           # Enhanced Visual Settings
-          optimize: yes
+          optimize: svg
           experimental_features: yes
           use_prebuilt_image: yes
+          config_base64: yes
+          retries: 3
+          retry_delay: 300
+          verify: yes
           
           # Template Configuration
           template: classic
@@ -116,18 +120,10 @@ jobs:
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, about
           
-          # Commit and Output Settings
+          # Commit Settings
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           output_action: commit
           commit_message: "🎨 Generated stunning metrics"
-          optimize: svg
-          
-          # Additional Visual Enhancements
-          config_base64: yes
-          retries: 3
-          retry_delay: 300
-          use_prebuilt_image: yes
-          verify: yes
 
       - name: 🔄 Auto-commit on Failure
         if: failure()
