@@ -11,9 +11,10 @@
 </div>
 
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="40" style="background-color: white;">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="40" style="display: inline-block; vertical-align: middle; background-color: white;">
   Competitive Programming
 </h1>
+
 
 <div align="center">
   <a href="https://codeforces.com/profile/Tiger_71">
