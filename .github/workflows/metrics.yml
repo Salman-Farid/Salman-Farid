@@ -70,3 +70,11 @@ jobs:
         with:
           message: "⚠️ Automated retry for metrics generation"
           add: "github-metrics.svg"
+          
+      - name: 📊 Update Streak Stats
+        run: |
+          echo "Updating streak stats..."
+          curl -o streak-stats.svg "https://github-readme-streak-stats.herokuapp.com/?user=Salman-Farid&background=FFFFFF&border=FFFFFF&stroke=000000&ring=0969DA&fire=0969DA&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000"
+          git add streak-stats.svg
+          git commit -m "📊 Update streak stats"
+          git push
