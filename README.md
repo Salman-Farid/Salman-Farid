@@ -6,7 +6,9 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" style="background-color: white;">
 </div>
 
-
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Salman-Farid&background=FFFFFF&border=FFFFFF&stroke=000000&ring=0969DA&fire=0969DA&currStreakNum=000000&sideNums=000000&currStreakLabel=000000&sideLabels=000000&dates=000000" />
+</div>
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="40" style="display: inline-block; vertical-align: middle; background-color: white;">
