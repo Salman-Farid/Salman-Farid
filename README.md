@@ -94,7 +94,7 @@
   <a href="mailto:salman.f.rahman@g.bracu.ac.bd">
     <img src="https://img.shields.io/badge/Gmail-FFFFFF?style=for-the-badge&logo=gmail&logoColor=EA4335">
   </a>
-  <a href="https://www.linkedin.com/in/salman-farid/">
+  <a href="https://www.linkedin. com/in/salman-f-rahman-8153951b1/">
     <img src="https://img.shields.io/badge/LinkedIn-FFFFFF?style=for-the-badge&logo=linkedin&logoColor=0A66C2">
   </a>
   <a href="https://codeforces.com/profile/Tiger_71">
