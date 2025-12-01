@@ -91,7 +91,7 @@
 </h1>
 
 <div align="center">
-  <a href="mailto:salman.f.rahman@g.bracu.ac.bd">
+  <a href="mailto:salmanfarid43@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-FFFFFF?style=for-the-badge&logo=gmail&logoColor=EA4335">
   </a>
   <a href="https://www.linkedin.com/in/salman-f-rahman-8153951b1/">
