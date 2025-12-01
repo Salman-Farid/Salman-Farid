@@ -61,7 +61,7 @@
 <summary><b>🏆 Competitive Programming Solutions</b></summary>
 <br>
 - [**CodeForces Solutions**](https://github.com/Salman-Farid/CodeForces-Solutions)
-  - 500+ problems solved
+  - 113+ problems solved
   - Implementation of complex algorithms
   - Detailed explanations and approaches
   
