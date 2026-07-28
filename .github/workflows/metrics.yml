@@ -7,16 +7,21 @@ on:
 permissions:
   contents: write
 
+# Cancel outdated runs so they don't pile up in queue
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34  # pinned, stable version
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Salman-Farid
           filename: github-metrics.svg
-          committer_token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Dhaka
 
           # Base plugins
@@ -24,16 +29,15 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_stargazers: yes
 
-          # Contributions - this is the one that's failing
+          # Contributors - limit 0 fetches EVERYONE, which can hang forever
           plugin_contributors: yes
           plugin_contributors_sections: repositories
-          plugin_contributors_limit: 0
+          plugin_contributors_limit: 24
 
-          # Optional: add more plugins as needed
+          # Optional plugins
           plugin_languages: yes
           plugin_languages_ignored: html,css
           plugin_stars: yes
           plugin_followup: yes
 
-          # Output
           output_action: commit
