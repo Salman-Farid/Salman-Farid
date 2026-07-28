@@ -15,13 +15,12 @@
   Competitive Programming
 </h1>
 
-
 <div align="center">
   <a href="https://codeforces.com/profile/Tiger_71">
     <img height="280" width="400" src="https://codeforces-readme-stats.vercel.app/api/card?username=Tiger_71&background=FFFFFF&titleColor=000000&textColor=000000&iconColor=000000" />
   </a>
-  <a href="https://leetcode.com/salman_farid/">
-    <img height="280" width="400" src="https://leetcard.jacoblin.cool/salman_farid?theme=light&font=Sura&ext=contest" />
+  <a href="https://leetcode.com/u/salman_f_rahman_43/">
+    <img height="280" width="400" src="https://leetcard.jacoblin.cool/salman_f_rahman_43?theme=light&font=Sura&ext=contest" />
   </a>
 </div>
 
@@ -60,11 +59,12 @@
 <details>
 <summary><b>🏆 Competitive Programming Solutions</b></summary>
 <br>
+
 - [**CodeForces Solutions**](https://github.com/Salman-Farid/CodeForces-Solutions)
   - 113+ problems solved
   - Implementation of complex algorithms
   - Detailed explanations and approaches
-  
+
 - [**LeetCode Solutions**](https://github.com/Salman-Farid/LeetCode-Solutions)
   - 300+ problems solved
   - Optimized solutions with time/space complexity analysis
@@ -74,11 +74,12 @@
 <details>
 <summary><b>📱 Flutter Projects</b></summary>
 <br>
+
 - [**Fitness Tracker**](https://github.com/Salman-Farid/fitness-tracker)
   - Real-time workout tracking
   - Custom animation implementations
   - Firebase integration
-  
+
 - [**Smart Assistant**](https://github.com/Salman-Farid/smart-assistant)
   - AI-powered chatbot
   - Voice recognition
@@ -124,9 +125,9 @@
   <a href="https://github.com/Salman-Farid/Salman-Farid/actions/workflows/metrics.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/Salman-Farid/Salman-Farid/metrics.yml?logo=github&style=for-the-badge&labelColor=FFFFFF&color=000000">
   </a>
-  
+
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700" style="background-color: white;">
-  
+
   <img src="https://github.com/Salman-Farid/Salman-Farid/blob/main/github-metrics.svg" alt="Metrics" width="800" style="background-color: white;">
-  
+
 </div>
