@@ -60,30 +60,33 @@
 <summary><b>🏆 Competitive Programming Solutions</b></summary>
 <br>
 
-- [**CodeForces Solutions**](https://github.com/Salman-Farid/CodeForces-Solutions)
-  - 113+ problems solved
+- [**Competitive Programming Solutions**](https://github.com/Salman-Farid/Competitive_programming_codes_and_snippets)
+  - 100+ Codeforces, plus CodeChef, UVa, GeeksforGeeks, HackerRank and LeetCode solutions
   - Implementation of complex algorithms
   - Detailed explanations and approaches
-
-- [**LeetCode Solutions**](https://github.com/Salman-Farid/LeetCode-Solutions)
-  - 300+ problems solved
-  - Optimized solutions with time/space complexity analysis
-  - Various problem-solving techniques
 </details>
 
 <details>
 <summary><b>📱 Flutter Projects</b></summary>
 <br>
 
-- [**Fitness Tracker**](https://github.com/Salman-Farid/fitness-tracker)
-  - Real-time workout tracking
-  - Custom animation implementations
-  - Firebase integration
+- [**MacnoDroidCleaner**](https://github.com/Salman-Farid/MacnoDroidCleaner)
+  - Production-ready Android cleaner & optimizer
+  - GetX architecture with platform channels
+  - 13+ feature modules
 
-- [**Smart Assistant**](https://github.com/Salman-Farid/smart-assistant)
-  - AI-powered chatbot
-  - Voice recognition
-  - Beautiful UI with custom animations
+- [**FitBook 2026**](https://github.com/Salman-Farid/fitbook-2026)
+  - Gym exercises, food tips & daily nutrition coach
+  - 1,300+ exercises with USDA nutrition data
+  - 10-language instruction system
+
+- [**BRQ DocScan**](https://github.com/Salman-Farid/brq-docscan)
+  - Client-side batch document scanner
+  - Auto-crop, perspective correction, 400 KB output ceiling
+
+- [**Plant Treatment App**](https://github.com/Salman-Farid/plant-treatment-app)
+  - On-device plant disease detection with a quantized ML model
+  - Firebase auth, plant care tips and disease library
 </details>
 
 <h1 align="center">
